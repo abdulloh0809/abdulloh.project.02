@@ -1,0 +1,556 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ body{
+    background-color: #f2f2f2;
+}
+
+.body {
+    background-color: #fffefe;
+    height: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.header{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 10%;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    color: gray;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.reg {
+    display: flex;
+    width: 30%;
+    margin-top: 30px;
+    color: gray;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.button{
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    background-color: blue;
+    color: rgba(255, 255, 255, 0.925);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img{
+    margin-right: 10px;
+}
+
+.center{
+    display: flex;
+}
+
+
+.main-text {
+    color: rgb(0, 0, 79);
+    font-size: 600%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.gray{
+    color: gray;
+}
+
+.qidiruv{
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    color: gray;
+    margin-top: 50px;
+}
+
+.qidiruv img{
+    padding: 0 auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.qidiruv p{
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-left: 55px;
+}
+
+.qidirish{
+    width: 100px;
+    background-color: blue;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.qidirish p{
+    color: aliceblue;
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-right: px;
+}
+
+.liniya{
+    display: flex;
+    margin-top: 50px;
+}
+
+.liniya p{
+    color: gray;
+    margin-left: 10px;
+}
+
+.liniya h1{
+    font-size: 220%;
+}
+
+.chiziq{
+    width: 1px;
+    background-color: gray;
+    height: 35px;
+    margin-top:25px ;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.text {
+    width: 50%;
+}
+
+.image{
+    width: 50%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.malumot{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.yawil-uy{
+    width: 400px;
+    height: 350px;
+    background-color: white ;
+    margin-top: 120px;
+    border-radius: 30px;
+}
+
+.rasm-1{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 35%;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 20px  rgba(0, 128, 0, 0.445);
+}
+
+.rasm-1 img{
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.malumot h3, .malumot p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.malumot p{
+    color: gray;
+}
+
+.kok-uy{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin-top: 120px;
+    border-radius: 30px;
+}
+
+.rasm-2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 35%;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 20px  rgba(0, 0, 255, 0.497);
+}
+
+.rasm-2 img{
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.rasm-3 img{
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+
+.rasm-4{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 35%;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 20px  rgba(255, 166, 0, 0.605);
+}
+
+.oranjeviy-uy{
+    width: 400px;
+    height: 350px;
+    background-color: white ;
+    margin-top: 120px;
+    border-radius: 30px;
+}
+
+.rasm-4 img{
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.sariq-uy{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin-top: 120px;
+    border-radius: 30px;
+}
+
+.rasm-3{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 35%;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 2px 4px 20px  rgba(255, 0, 0, 0.448);
+}
+
+.malumot{
+    margin: 0 auto;
+    margin-top: 00px;
+}
+
+.green{
+    color: green;
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+.head h1{
+    font-size: 200%;
+}
+
+.head{
+    margin-top: 70px;
+    height: 150px;
+    display: flex;
+}
+
+
+.img-filter {
+    display: flex;
+    align-items: center;
+}
+
+.head-left {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.img-filter p {
+    margin-left: 10px;
+}
+
+.img {
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.qizlar-uchun{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #fbfbfbf0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.105);
+}
+
+.qizlar-uchun img{
+    width: 100%;
+    height: 40%;
+}
+
+.xewteg{
+    color: rgba(130, 3, 3, 0.84);
+    font-size: 13px;  
+}
+
+.uy{
+    padding: 20px 20px;
+}
+
+.qavat p{
+    display: flex;
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.qavat img{
+    width: 20px;
+    height: 20px;
+}
+
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+
+.room img {
+    width: 20px;
+    height: 20px;
+}
+
+.qizlar-uchun p{
+    font-size: 14px;
+}
+
+.batafsil{
+    color: green;
+}
+
+.rang{
+    color: green;
+}
+
+.narh{
+    justify-content: space-between;
+    display: flex;
+}
+
+.yigitlar-uchun{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #fbfbfbf0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.105);
+}
+
+.yigitlar-img{
+    width: 100%;
+    height: 40%;
+}
+
+.yigitlar-uchun p{
+    font-size: 14px;
+}
+
+.batafsil-uy{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Oila-uchun{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #fbfbfbf0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.105);
+}
+
+.oila-img{
+    width: 100%;
+    height: 40%;
+}
+
+.Oila-uchun p{
+    font-size: 14px;
+}
+
+.yigitlar-uchun-02{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #fbfbfbf0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.105);
+}
+
+.yigitlar-uchun-img{
+    width: 100%;
+    height: 40%;
+}
+
+.yigitlar-uchun-02 p{
+    font-size: 14px;
+}
+
+.mobile{
+    display: flex;
+    margin-top: 80px;
+}
+
+.mobile-text{
+    width: 50%;
+    margin-top: 150px;
+}
+
+.orange{
+    color: rgba(242, 141, 8, 0.886);
+    font-size: 14px;
+}
+
+.mobile-text img{
+    width: 40px;
+}
+
+.mobile-play img{
+    width: 200px;
+    height: 80px;
+}
+
+.mobile-img{
+    width: 50%;
+}
+
+.gren{
+    color: green;
+    font-size: 14px;
+}
+
+.hamkorlar{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.hamkorlar-img{
+    justify-content: space-between;
+    margin-top: 20px;
+    display: flex;
+}
+
+.qidiruv02{
+    background-color: blue;
+    height: 120px;
+    width: auto;
+    display: flex;
+}
+
+.qidiruv02 h1{
+    color: white;
+    margin-left: 60px;
+}
+
+.qidiruv02 p{
+    color: rgba(255, 255, 255, 0.943);
+    font-size: 14px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.savol-tg{
+    width: 90%;
+}
+
+.buton{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.o-sebe{
+    width: 100%;
+    height: 400px;
+    background-color: #021F31;
+    display: flex;
+}
+
+.talaba{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 510px;
+    height: 320px;
+}
+
+.talaba-img{
+    width: 150px;
+}
+
+.talaba p{
+    color: gray;
+}
+
+.talaba-image{
+    text-align: center;
+}
+
+.ijtimoiy-tarmoqlar{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.gray-width{
+    color: gray;
+    width: 70%;
+}
